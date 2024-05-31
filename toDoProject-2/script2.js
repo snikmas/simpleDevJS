@@ -22,6 +22,14 @@ function addTask() {
   nameTask = document.querySelector('.input').value;
   dateTask = document.querySelector('.date').value;
 
+  while (!nameTask) {
+    nameTask = prompt('Input your task!');
+  };
+
+  while (!dateTask){
+    dateTask = prompt('Input the date of your task!');
+  }
+
   tasks.push({
     nameTask,
     dateTask,
@@ -33,12 +41,16 @@ function addTask() {
   outputTask();
 }
 
+function noInputError() {
+
+}
+
 function outputTask(){
 
   outputHTML = '';
   for (let i = 0; i < tasks.length; i++){
 
-    outputHTML += `<p class="task">${tasks[i].nameTask} ${tasks[i].dateTask}<button class='delete'>Delete</button></p>`;
+    outputHTML += `<p class="task">${tasks[i].nameTask}</p><p> ${tasks[i].dateTask}</p><button class='delete'>Delete</button>`;
   }
   
   document.querySelector('.existingTask').innerHTML = outputHTML;

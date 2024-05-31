@@ -8,11 +8,11 @@
 </head>
 <body>
   <p>Todo List</p>
-  
-  <input type="text" placeholder="Todo Name" class="input" onkeydown="keyEvent(event.key)">
-  <input type="date" class="date" onkeydown="keyEvent(event.key)">
-
-  <button class="addButt" onclick="addTask()">Add</button>
+  <div class="input-styling">
+    <input type="text" placeholder="Todo Name" class="input" onkeydown="keyEvent(event.key)">
+    <input type="date" class="date" onkeydown="keyEvent(event.key)">
+    <button class="addButt" onclick="addTask()">Add</button>
+  </div>
 
   <div class="existingTask">
   </div>
