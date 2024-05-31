@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style2.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>Todo List</p>
+  
+  <input type="text" placeholder="Todo Name" class="input" onkeydown="keyEvent(event.key)">
+  <input type="date" class="date" onkeydown="keyEvent(event.key)">
+
+  <button class="addButt" onclick="addTask()">Add</button>
+
+  <div class="existingTask">
+  </div>
+
+  <script src="script2.js"></script>
+  
+</body>
+</html>

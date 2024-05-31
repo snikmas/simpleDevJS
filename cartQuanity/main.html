@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button onclick="show()">Show Quanity</button>
+  <button onclick="add(1)">Add to Cart +1</button>
+  <button onclick="add(2)">+2</button>
+  <button onclick="add(3)">+3</button>
+  <button onclick="add(4)">+4</button>
+  <button onclick="add(5)">+5</button>
+  <button onclick="add(-1)">Remove from cart -1</button>
+  <button onclick="add(-2)">-2</button>
+  <button onclick="add(-3)">-3</button>
+  <button onclick="reset()">Reset</button>
+
+  <script>
+    let quanity = 0;
+
+    function show(){
+      console.log(quanity);
+    };
+
+    function add(num){
+
+      if (quanity + num > 10)
+      {
+        return console.log('The cart is full:', quanity)
+      }
+      else if (quanity + num < 0){
+        return console.log("Not enough items in the cart: ", quanity)
+      }
+
+      quanity += num;
+      console.log(`+ ${num} = ${quanity}`)
+    };
+
+    function reset() {
+      quanity = 0;
+      show();
+    }
+  </script>
+</body>
+</html>

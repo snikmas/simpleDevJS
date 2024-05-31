@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+p {
+  display: inline
+}
+
+
+body {
+  margin-left:3rem;
+  background-color: rgb(21, 21, 21);
+  color:white;
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.window {
+  width:16.5rem;
+  display: grid;
+  grid-template-rows: 5rem auto;
+}
+.inputLine {
+  padding:1rem 0.2rem;
+  font-size: 2.5rem;
+  text-align: start;
+  line-height: 4rem;
+
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 3.7rem);
+  row-gap: 0.7rem;
+  column-gap:0.5rem;
+}
+
+
+.action {
+  grid-template-columns: auto;
+  background-color:#fda013;
+}
+.clear {
+  font-size: 1rem;
+}
+
+
+button {
+  color: white;
+  width: 3.7rem;
+  height: 3.7rem;
+  border:none;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    CoinFlipGame:
+    <button onclick="game('heads')">heads</button>
+    <button onclick="game('tails')">tails</button>
+    <button onclick="reset()">reset</button>
+
+    <script>
+      let randNumb = '';
+      let result = JSON.parse(localStorage.getItem('result')) || {
+        wins:0,
+        losses: 0,
+      };
+
+      console.log(JSON.parse(localStorage.getItem('result')));
+      
+      function reset() {
+        result.wins = 0;
+        result.losses = 0;
+        localStorage.removeItem('result')
+
+        show();b
+      }
+
+
+      function game(playerMove) {
+        randNumb = Math.random() < 0.5 ? 'heads' : 'tails';
+        console.log(randNumb);
+
+        if (randNumb == playerMove)
+          result.wins++;
+        else
+          result.losses++;
+        
+        localStorage.setItem('result', JSON.stringify(result));
+
+        show();
+      }
+      
+      function show() {
+        console.log(`Result:\nWins:${result.wins};\nLosses: ${result.losses}`);
+        
+      }
+        
+        </script>
+  </body>
+</html>

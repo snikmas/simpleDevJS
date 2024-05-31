@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  Rock Paper Scissors
+  <button onclick="game('rock')">Rock</button>
+  <button onclick="game('paper')">Paper</button>
+  <button onclick="game('scissors')">Scissors</button>
+
+  <script>
+    let computerMove = ''
+    let result = ''
+
+    function pickComputerMove(){
+      const randNum = Math.random();
+      
+      if (randNum >= 0 && randNum < 1 / 3) {
+        return 'rock';
+      }
+      else if (randNum < 2/3) {
+        return 'paper';
+      }
+      else 
+        return 'scissors';
+    }
+
+
+    function game(playerMove) {
+      computerMove = pickComputerMove();
+
+      if (computerMove == playerMove) {
+        result = ('Tie.');
+      } 
+      
+      else if (playerMove == 'rock') { // rock game
+        if (computerMove == 'paper') {
+          result = ('You lose.');
+        } 
+        else {
+          result = ('You win.');
+        }
+      }
+
+      else if (playerMove == 'paper') { //paper game
+        if (computerMove == 'rock') {
+          result = 'You win.';
+        }
+        else {
+          result = 'You lose'
+        }
+      }
+
+      else { // scissors game
+        if (computerMove == 'paper') {
+          result = 'You win.'
+        }
+        else {
+          result = "You lose."
+        }
+      }
+
+      console.log(`Your move: ${playerMove} \nThe computers move: ${computerMove}.\n${result}`);
+
+    }
+
+
+    
+  </script>
+</body>
+</html>
