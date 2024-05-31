@@ -1,0 +1,57 @@
+.video-preview {
+  background-color: #F3F4F6;
+  gap:5%;
+  display: flex;
+  padding:5% 10%;
+}
+
+.video-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.video-text h2 {
+  display: flex;
+  line-height: 1.3em;
+  font-size: 2.4em;
+}
+
+.video-text p {
+  display: flex;
+  line-height: 1.6em;
+  font-size: 1.2em;
+}
+
+button.read-more {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  padding: 1.5em 1.9em;
+}
+
+.three-point {
+  display: flex;
+  align-items: center;
+  gap:0.6em;
+  width:30%;
+  
+  
+  color:white;
+  background-color: black;
+  padding-right:1.5em;
+}
+
+
+
+
+.div {
+  position: relative;
+}
+
+.play { 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left:50%;
+}

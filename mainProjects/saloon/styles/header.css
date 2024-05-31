@@ -1,0 +1,35 @@
+header {
+  padding:0.7rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap:2em;
+}
+
+.logo {
+  width:6rem;
+  object-fit: contain;
+}
+
+header a {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  color:white;
+}
+
+.icon {
+  width:1.5rem;
+  margin-top:-0.2em;
+  border-radius: solid 4px white;
+}
+
+/* ====================================*/
+/* ============ big - HEADER ====================*/

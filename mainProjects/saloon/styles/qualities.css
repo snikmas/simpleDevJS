@@ -1,0 +1,31 @@
+.qualit-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.qualit-section img {
+  width:6rem;
+}
+
+.qualit-section h5 {
+  font-size: 1.3em;
+  margin-top:0.6em;
+  margin-bottom:0.6em;
+  letter-spacing: 0.04em;
+}
+
+.qualit-section p {
+  line-height: 1.4em;
+  font-size: 0.98em;
+  text-align: center;
+}
+
+.qualities {
+  overflow:hidden;
+}

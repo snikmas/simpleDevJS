@@ -1,0 +1,61 @@
+html, body {
+}
+.page-1 {
+  background-image: url("/restaurant/images/image1.png");
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+
+.welcome {
+  margin-top: 5rem;
+  margin-left: 5%;
+  font-size: 4rem;
+  line-height: 5rem;
+  width:35rem;
+}
+
+input {
+  padding:0.7rem 1.3rem;
+  font-size: 1rem;
+  border-radius: 0.3em;
+  border:solid 0.1rem rgb(190, 190, 190)
+}
+
+.in-text {
+  border-top-right-radius: 0;
+  border-bottom-right-radius:0;
+  background-image: url(/restaurant/images/magnifying-glass.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1.3rem;
+  background-position-x: 0.5em;
+  width:70%;
+  padding-left: 2rem;
+}
+
+
+.button {
+  color:white;
+  background-color: orange;
+  border-color: orange;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 20%;
+}
+
+.icon {
+  list-style: none;
+  font-size: 60%;
+  display: flex;
+  gap:1em;
+  margin-left:0;
+  padding:0;
+  margin-top:0.7rem;
+}
+
+.icon img {
+  margin-right:0.2em;
+}

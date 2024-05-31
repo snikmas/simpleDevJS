@@ -1,0 +1,43 @@
+.master-content {
+  margin: 9rem 0em;
+  display: flow-root;
+}
+
+.girls {
+  margin-left: 9%;
+  margin-right: 9%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.girls > * {
+  position: relative;
+}
+
+
+
+.black-name {
+  position: absolute;
+  color:white;
+  background-color:black;
+  word-spacing: 0.4em;
+  align-items: center;
+  padding: 0.4em 4em;
+  z-index: 1;
+  bottom:-5%;
+
+  left:20%;
+  /* problem, they don't follow sections */
+}
+
+.black-name p {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.black-name h6 {
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-bottom: 0.1em;
+}

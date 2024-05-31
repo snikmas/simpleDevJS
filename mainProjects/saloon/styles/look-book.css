@@ -1,0 +1,24 @@
+.lookbook-sect {
+  display: flow-root;
+  text-align: center;
+  padding-top:1em;
+  font-size: 1.5em;
+}
+
+
+
+.lookbook-content {
+  margin-top:2em;
+  display: grid;
+  margin-right: 15%;
+  margin-left: 15%;
+  column-gap: 1%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.lookbook-content  img{
+  margin-bottom: 4%;
+}
+
+.lookbook-content img {
+  width:97%;
+}

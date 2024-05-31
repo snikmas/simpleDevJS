@@ -1,0 +1,63 @@
+.page-4 {
+  clear:both;
+  background-position-x:right;
+  background-image: url(/restaurant/images/image-4.png);
+  text-align: center;
+  background-size: contain;
+  height:100%;
+  width:100%;
+}
+
+
+.call {
+  width:5em;
+  padding:0.6em;
+  border-radius: 50%;
+  border: 0.05em solid black;
+  margin-bottom:0.9em;
+}
+
+.page-4-content .p-black{
+  color:black;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.page-4-content h3{
+  margin-bottom: 0.5em;
+  font-size: 3em;
+  color:orange
+}
+
+.right-left {
+  width:60%;
+  text-align: left;
+  margin:0 auto;
+  display: block;
+  font-size: 2em;
+  margin-bottom: 4em;
+}
+
+.right-left h6 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+
+
+.right {
+  float:right;
+
+}
+.left {
+  float:left;
+}
+
+img.imgg{
+  margin:0 auto;
+  width:48%;
+  clear:both;
+  display:block;
+  padding-bottom: 5em;
+}

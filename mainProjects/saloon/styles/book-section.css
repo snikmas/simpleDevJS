@@ -1,0 +1,72 @@
+.book-page {
+  display: flow-root;
+  background-image: url(/saloon/images/book-background.jpg);
+  background-position-x: -10rem;
+  margin-top:10rem;
+  margin-bottom:5rem;
+  padding-bottom:4rem;
+  justify-content: cover;
+
+}
+
+.book-content {
+  margin-left:50%;
+  margin-top: 3rem;
+  display: grid;
+  row-gap: 1em;
+  
+}
+
+.book-content > * {
+  width:90%;
+}
+
+.book-content h1 {
+  font-size: 3em;
+  font-weight: 400;
+  padding-bottom:0.2em;
+}
+
+
+.line-design {
+  width:3em;
+  height:0.01em;
+  border: 0.1em solid black;
+  margin-bottom:1em;
+}
+
+
+
+
+.user-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:1%;
+  row-gap: 2em;
+  grid-template-rows: 2em 2em;
+  background-color: none;
+}
+
+
+input {
+  background-color: none;
+  padding:1.6em 1em;
+  height:3em;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom:1em;
+
+}
+
+.user-message {
+  height:10em;
+  text-align: start;
+}
+
+.book-button {
+  width:22%;
+  padding:1.3em 0.6em;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}

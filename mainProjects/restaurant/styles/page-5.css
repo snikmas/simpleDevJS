@@ -1,0 +1,48 @@
+.page-5 {
+  text-align: center;
+  background-color: #F4F5F7;
+  padding-top:2em;
+
+}
+
+.content-page-5 img {
+  width:13em;
+  height:13em;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+p.name {
+  font-size: 2em;
+  color:black;
+}
+
+.content-page-5 span {
+  color:rgb(138, 138, 138);
+}
+
+.stars{
+  margin-top: 2em;
+}
+
+.stars img {
+  width:2em;
+  height:2em;
+  border-radius: 0;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+  margin-bottom: 1.4em;
+}
+
+.page-5 .feedback {
+  color:black;
+  font-style: italic;
+  width:80%;
+  font-size: 1.5em;
+  letter-spacing: 0.04em;
+  margin:0 auto;
+  margin-bottom:1.5em;
+}
+
+

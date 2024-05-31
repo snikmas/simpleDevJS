@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, header, html {
+  margin: 0;
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;  
+  
+}
+
+.page-1, .page-2, .page-4 {
+  height:100vh;
+  background-repeat: no-repeat;
+}
+
+.page-3 {
+  height:auto;
+}
+
+
+h1, h2, p, h3,h6 {
+  margin:0;
+}
+
+.orange-p {
+  color: orange;
+  font-size: 1.4em;
+}
+
+.common-h2 {
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 1.8rem;
+}
+  

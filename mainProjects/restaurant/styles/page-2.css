@@ -1,0 +1,38 @@
+.page-2 {
+  background-image: url(/restaurant/images/image2.png), url(/restaurant/images/try.png);
+  background-position: left, right;
+  background-position-x: -36rem, 65rem;
+  size: 100% 100%;
+  background-color: #F4F5F4;
+}
+
+.content-page-2 {
+  display: block;
+  margin:0 45%;
+  width:40%;
+  padding-top:3em;
+  padding-bottom:3em;
+
+}
+
+.content-page-2 .content {
+  text-align:justify;
+  color:black;
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+
+.discover-menu {
+  padding:1em 1.4em;
+  width:9.5rem;
+  text-align: left;
+  color:white;
+  background-color: orange;
+  border:0;
+  border-radius: 0.3rem;
+  
+  background-image: url(/restaurant/images/arrow.png);
+  background-size: 1.3em;
+  background-repeat:no-repeat;
+  background-position:9em;
+}

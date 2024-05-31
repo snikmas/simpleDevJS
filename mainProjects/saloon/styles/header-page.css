@@ -1,0 +1,101 @@
+.header-page {
+  background-image: url(/saloon/images/header-page-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -2em;
+  overflow: auto;
+  
+}
+/* they'all work, what do they do 
+overflow:auto / hidden 
+display:flow-root */
+
+.content {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  overflow: auto;
+}
+/* 
+.content::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* left-section */
+/* left-section */
+
+.left-section {
+  margin-left:13%;
+  width:50%;
+  float:left;
+}
+
+.left-section h1 {
+  line-height: 1.1em;
+  font-size: 6rem;
+  font-weight: 500;
+  
+}
+
+.left-section p {
+  padding-top:1em ;
+  padding-bottom:1em ;
+  font-size: 1.4em;
+  font-weight: 500;
+
+}
+
+.services-button{
+  display: flex;
+  align-items: center;
+  gap:0.6em;
+  font-size: 80%;
+
+
+  color:white;
+  background-color: black;
+  padding:1.1em 1.2em;
+}
+
+
+
+/* BUTTONS AND COMMON BUTTON */
+
+button{
+  background-color: black;
+  border:none;
+  color:white;
+  cursor: pointer;
+}
+
+
+.buttons > *, .read-more {
+  margin-right:0.07em;
+  padding:0.8rem 0.8rem;
+}
+
+
+/* left-section */
+
+
+/* right-section */
+/* right-section */
+
+.right-section {
+  float:right;
+  font-size: 150%;
+  writing-mode: vertical-rl;
+}
+
+
+
+
+
+
+
+
+
+.buttons {
+  clear:both;
+}
