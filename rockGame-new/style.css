@@ -1,0 +1,46 @@
+/* ====================== BASE ELEMENTS ========================================= */
+
+html {
+  background-color: rgb(22, 22, 22);
+  font-size: 62.5%;
+  font-family: Arial;
+  color:white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-weight: 0;
+  margin-bottom:2rem;
+  margin-top:2rem;
+  font-size: 3rem;
+}  
+
+button {
+  font-size: 1.4rem;
+  padding: 1.0rem 1.7rem;
+  margin-right:0.5rem;
+}
+
+p {
+  font-size:2rem;
+}
+
+/* ====================== BASE ELEMENTS ========================================= */
+
+img{
+  width:7.5rem;
+  border-radius: 50%;
+}  
+
+.buttons > * {
+  background-color: rgb(22, 22, 22);
+  border: white 2px solid;
+  border-radius: 50%;
+  padding:3.3rem;
+  margin:2rem 1rem;
+}  
+
