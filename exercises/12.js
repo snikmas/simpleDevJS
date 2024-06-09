@@ -39,4 +39,4 @@ const removeEgg2 = (foods) => {
     }))
 }
 
-console.log(removeEgg2(['egg', 'apple', 'egg', 'egg', 'ham']));
+// console.log(removeEgg2(['egg', 'apple', 'egg', 'egg', 'ham']));

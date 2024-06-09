@@ -1,0 +1,39 @@
+header {
+  background-color: black;
+  color:white;
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  column-gap: 1rem;
+  
+  
+}
+
+ul > * {
+  padding:1rem 0.7rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+ul img {
+  width:1.4rem;
+}
+
+.book-online img {
+  width:1.5rem;
+  margin-right: 1rem;
+}
+
+.book-online > * {
+  padding-top:auto;
+  padding-bottom:auto;
+}
